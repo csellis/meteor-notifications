@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   api.use([
     'templating',
     'underscore',
-    'less',
+    'less@3.0.1',
     'mongo'
   ], 'client');
 
